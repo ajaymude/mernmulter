@@ -79,4 +79,4 @@ app.get('/',async (req ,res)=>{
 
 
 //listenig 
-app.listen(process.env.Port, ()=>{ console.log('server is runnig on port  ckeck')})
+app.listen(8000, ()=>{ console.log('server is runnig on port  ckeck')})
